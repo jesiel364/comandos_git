@@ -6,7 +6,7 @@
 editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas.
 
 
-## git config
+## 1. git config
 
 Serve para você fazer as configurações  do git
 
@@ -15,13 +15,13 @@ Serve para você fazer as configurações  do git
 ` $ git config --global user.email "seu email"  `
 
 
-## git init
+## 2. git init
 
 Esse é o comando que você irá utilizar para criar um novo projeto de git.
 
 ` git init <nome do repositorio> `
 
-## git clone
+## 3. git clone
 
 Esse comando Git cria uma cópia exata de um repositório já existente.
 
@@ -31,7 +31,7 @@ Esse comando Git cria uma cópia exata de um repositório já existente.
 
 ` git clone -b <link do projeto> `
 
-## git add
+## 4. git add
 
 o git add adiciona todos os arquivos modificados ao repositório
 
@@ -46,14 +46,14 @@ o git add adiciona todos os arquivos modificados ao repositório
 
 
 
-## git commit
+## 5. git commit
 
 O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log.
 
 ` git commit -am "Seu comentário" `
 
 
-## git branch
+## 6. git branch
 
 A grosso modo, um branch é um caminho independente de desenvolvimento, uma alternativa.
 
@@ -72,7 +72,7 @@ A grosso modo, um branch é um caminho independente de desenvolvimento, uma alte
 
 
 
-## git checkout
+## 7. git checkout
 
 Serve para trocar de uma ramificação do seu projeto
 
@@ -82,7 +82,7 @@ Serve para trocar de uma ramificação do seu projeto
 
 ` git checkout -b <nova ramificação> `
 
-## git pull
+## 8. git pull
 
 Esse comando atualiza seu repositório local com o remoto
 
